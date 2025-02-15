@@ -6,25 +6,40 @@ Simple React application for learning component. This React project is organized
 
 ```
 src/
-├── app/pages
-│   ├── index.jsx
-│   ├── Offer.jsx
-│   ├── Offer.css
-│   ├── Profile.jsx
-│   └── Profile.css
-├── assets
+├── app/
+│   └── pages/
+│       ├── index.jsx
+│       ├── Offer.jsx
+│       ├── Offer.css
+│       ├── Profile.jsx
+│       ├── Profile.css
+│       ├── Features.jsx
+│       └── Features.css
+├── assets/
 │   ├── accessibility.svg
 │   ├── blocks.svg
 │   ├── cloud.svg
 │   ├── react.svg
-│   └── star.svg
-├── components
+│   ├── star.svg
+│   ├── arrow.svg
+│   ├── arrowup.svg
+│   ├── cursor.svg
+│   ├── layer.svg
+│   ├── love.svg
+│   ├── question.svg
+│   └── time.svg
+├── components/
+│   ├── Button.jsx
+│   ├── Button.css
+│   ├── FeatureCard.jsx
+│   ├── FeatureCard.css
 │   ├── OfferCard.jsx
 │   ├── OfferCard.css
 │   ├── ProfileCard.jsx
 │   └── ProfileCard.css
 ├── index.css
 └── main.jsx
+
 
 public/
 .gitignore
@@ -47,6 +62,7 @@ This project is built using React with Vite as the build tool. It includes:
 -   Modular folder structure for scalability.
 -   Reusable components for maintainability.
 -   Raw CSS for custom styling.
+-   Features section with cards.
 
 ## Installation
 

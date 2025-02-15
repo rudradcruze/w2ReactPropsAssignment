@@ -1,0 +1,21 @@
+.buttonFeatures {
+	padding: 12px 30px;
+	font-size: 1rem;
+	border: 1px solid skyblue;
+	border-radius: 5px;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+}
+
+.buttonFeatures:hover {
+	background-color: skyblue;
+	color: white;
+}
