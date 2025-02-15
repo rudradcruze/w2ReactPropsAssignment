@@ -3,6 +3,7 @@ import Profile from "./Profile";
 import Offer from "./Offer";
 import Features from "./Features";
 import YouTubeVideo from "./YouTubeVideo";
+import Pricing from "./Pricing";
 
 function LandingPage() {
 	return (
@@ -11,6 +12,7 @@ function LandingPage() {
 			<Offer />
 			<Features />
 			<YouTubeVideo />
+			<Pricing />
 		</>
 	);
 }

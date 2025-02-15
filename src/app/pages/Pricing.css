@@ -1,0 +1,7 @@
+.pricing {
+	display: flex;
+	justify-content: center;
+	margin: 1rem auto;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
