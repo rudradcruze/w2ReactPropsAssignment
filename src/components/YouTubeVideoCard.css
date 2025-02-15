@@ -1,0 +1,32 @@
+.youtube-card {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 215px;
+	border-radius: 12px;
+	overflow: hidden;
+	padding: 0;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border: none;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	-ms-border-radius: 12px;
+	-o-border-radius: 12px;
+}
+
+.youtube-card iframe {
+	border: none;
+}
+
+.youtube-card-info {
+	padding: 0.5rem;
+}
+
+.youtube-card-info h3 {
+	font-size: 0.9rem;
+}
+
+.youtube-card-info p {
+	font-size: 0.8rem;
+	color: #666;
+}
