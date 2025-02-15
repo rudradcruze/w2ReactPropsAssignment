@@ -14,7 +14,11 @@ src/
 │       ├── Profile.jsx
 │       ├── Profile.css
 │       ├── Features.jsx
-│       └── Features.css
+│       ├── Features.css
+│       ├── Pricing.jsx
+│       ├── Pricing.css
+│       ├── YouTubeVideo.jsx
+│       └── YouTubeVideo.css
 ├── assets/
 │   ├── accessibility.svg
 │   ├── blocks.svg
@@ -35,8 +39,14 @@ src/
 │   ├── FeatureCard.css
 │   ├── OfferCard.jsx
 │   ├── OfferCard.css
+│   ├── PricingCard.jsx
+│   ├── PricingCard.css
 │   ├── ProfileCard.jsx
-│   └── ProfileCard.css
+│   ├── ProfileCard.css
+│   ├── YouTubeVideoButton.jsx
+│   ├── YouTubeVideoButton.css
+│   ├── YouTubeVideoCard.jsx
+│   └── YouTubeVideoCard.css
 ├── index.css
 └── main.jsx
 
@@ -63,6 +73,8 @@ This project is built using React with Vite as the build tool. It includes:
 -   Reusable components for maintainability.
 -   Raw CSS for custom styling.
 -   Features section with cards.
+-   Pricing Card with button (list).
+-   YouTubeVideo Card with button (list).
 
 ## Installation
 
